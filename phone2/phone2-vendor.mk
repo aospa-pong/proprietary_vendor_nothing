@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/phone2/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/nothing/phone2/proprietary/system/lib64/libgui.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgui.so \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/nothing/phone2/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
@@ -312,6 +313,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/nothing/phone2/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/nothing/phone2/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
+    vendor/nothing/phone2/proprietary/vendor/etc/permissions/com.nothing.features_vnd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nothing.features_vnd.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.nfc.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/nothing/phone2/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
@@ -1213,6 +1215,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/phone2/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libgrpc++_unsecure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrpc++_unsecure.so \
+    vendor/nothing/phone2/proprietary/vendor/lib64/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgui_vendor.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libhalide_hexagon_host.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhalide_hexagon_host.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libhdr10plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr10plus.so \
     vendor/nothing/phone2/proprietary/vendor/lib64/libhdr_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_stub.so \
